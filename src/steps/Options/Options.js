@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import PropTypes from 'prop-types'
-import Option from 'components/Options/Option'
+import Option from 'steps/Options/Option'
 import TriangleBg from 'icons/bg-triangle.svg'
 import PentagonBg from 'icons/bg-pentagon.svg'
 
@@ -38,8 +38,8 @@ const Wrapper = styled.div`
     height: 420px;
   }
   ${({ type }) =>
-        type === 'pentagon' &&
-        css`
+    type === 'pentagon' &&
+    css`
       background-image: url(${PentagonBg});
       & > ${OptionWrapper} {
         &:nth-child(1) {
@@ -86,48 +86,48 @@ const Wrapper = styled.div`
 `
 
 const Options = ({ mode }) => (
-    <>
-        {mode === 'advanced' ? (
-            <Wrapper type="pentagon">
-                <OptionWrapper>
-                    <Option type="rock" />
-                </OptionWrapper>
-                <OptionWrapper>
-                    <Option type="paper" />
-                </OptionWrapper>
-                <OptionWrapper>
-                    <Option type="scissors" />
-                </OptionWrapper>
-                <OptionWrapper>
-                    <Option type="lizard" />
-                </OptionWrapper>
-                <OptionWrapper>
-                    <Option type="spock" />
-                </OptionWrapper>
-            </Wrapper>
-        ) : (
-                <Wrapper>
-                    <OptionWrapper>
-                        <Option type="rock" />
-                    </OptionWrapper>
-                    <OptionWrapper>
-                        <Option type="paper" />
-                    </OptionWrapper>
+  <>
+    {mode === 'advanced' ? (
+      <Wrapper type="pentagon">
+        <OptionWrapper>
+          <Option type="rock" />
+        </OptionWrapper>
+        <OptionWrapper>
+          <Option type="paper" />
+        </OptionWrapper>
+        <OptionWrapper>
+          <Option type="scissors" />
+        </OptionWrapper>
+        <OptionWrapper>
+          <Option type="lizard" />
+        </OptionWrapper>
+        <OptionWrapper>
+          <Option type="spock" />
+        </OptionWrapper>
+      </Wrapper>
+    ) : (
+        <Wrapper>
+          <OptionWrapper>
+            <Option type="rock" />
+          </OptionWrapper>
+          <OptionWrapper>
+            <Option type="paper" />
+          </OptionWrapper>
 
-                    <OptionWrapper>
-                        <Option type="scissors" />
-                    </OptionWrapper>
-                </Wrapper>
-            )}
-    </>
+          <OptionWrapper>
+            <Option type="scissors" />
+          </OptionWrapper>
+        </Wrapper>
+      )}
+  </>
 )
 
 Options.propTypes = {
-    mode: PropTypes.string,
+  mode: PropTypes.string,
 }
 
 Options.defaultProps = {
-    mode: 'normal',
+  mode: 'normal',
 }
 
 export default Options
