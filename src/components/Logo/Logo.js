@@ -15,12 +15,12 @@ const Image = styled.img`
 `
 
 const Logo = () => {
-    const { mode } = useContext(AppContext)
-    return (
-        <Wrapper>
-            <Image src={mode === 'advanced' ? logo2Img : logoImg} alt="logo" />
-        </Wrapper>
-    )
+  const { currentMode } = useContext(AppContext)
+  return (
+    <Wrapper>
+      <Image src={currentMode === 'advanced' ? logo2Img : logoImg} alt="logo" />
+    </Wrapper>
+  )
 }
 
 export default Logo
