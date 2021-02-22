@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 const Content = styled.main`
 padding: 60px 0;
-${({ theme }) => theme.mq.xs} {
+${({ theme }) => theme.mq.s} {
   padding: 100px 0;
 }
 `
@@ -23,7 +23,7 @@ margin-top: auto;
   & > * {
     margin-bottom: 10px;
   }
-  ${({ theme }) => theme.mq.xs} {
+  ${({ theme }) => theme.mq.s} {
     justify-content: space-between;
     flex-direction: row;
   }
