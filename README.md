@@ -15,6 +15,7 @@ Check out the demo! -
 - React Hooks
 - Framer Motion
 - Styled Components
+- Local Storage
 - Husky & lint-staged
 
 ## Features
@@ -23,6 +24,7 @@ Users are be able to:
 
 - View the optimal layout for the game depending on their device's screen size
 - Play Rock, Paper, Scissors against the computer
+- Maintain the state of the score after refreshing the browser
 - Play Rock, Paper, Scissors, Lizard, Spock against the computer
 
 ### Rules
