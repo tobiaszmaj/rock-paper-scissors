@@ -1,8 +1,8 @@
 # Rock, Paper, Scissors
 
-Rock, Paper, Scissors game made with Gatsby for a challenge by Frontend Mentor.
+Rock, Paper, Scissors game made with Gatsby.
 
-![Design preview for the Rock, Paper, Scissors coding challenge]()
+![Design preview](preview.jpg)
 
 ## Demo
 
@@ -10,13 +10,10 @@ Check out the demo! -
 
 ## Technologies
 
-- Gatsby: 2.23.12,
-- React v16.12.0
-- React Hooks
-- Framer Motion
-- Styled Components
-- Local Storage
-- Husky & lint-staged
+* [Gatsby](https://www.gatsbyjs.com/)
+* [React with Hooks](https://reactjs.org/)
+* [Framer Motion](https://www.framer.com/motion/)
+* [styled-components](https://styled-components.com/)
 
 ## Features
 
@@ -49,8 +46,6 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Rock beats Scissors
 - Lizard beats Paper
 - Spock beats Rock
-
-Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from The Big Bang Theory](https://www.youtube.com/watch?v=iSHPVCBsnLw).
 
 ## Credits and sources
 
