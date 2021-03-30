@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  pathPrefix: "/rock-paper-scissors",
   siteMetadata: {
     title: `Rock Paper Scissors`,
     description: `Rock paper scissors is a simple but interesting game. Many of us used to play it in a school to resolve disputes or just to spend some time. This version has two modes.`,

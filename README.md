@@ -2,11 +2,11 @@
 
 Rock, Paper, Scissors game made with Gatsby.
 
-![Design preview](preview.jpg)
+![Design preview](preview.gif)
 
 ## Demo
 
-Check out the demo! - 
+Check out the demo! - [LINK](https://tobiaszmaj.github.io/rock-paper-scissors/)
 
 ## Technologies
 
@@ -46,7 +46,3 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Rock beats Scissors
 - Lizard beats Paper
 - Spock beats Rock
-
-## Credits and sources
-
-This is a challenge by www.frontendmentor.io. I got all of the icons and designs from the website. I tried my best to get as close as possible to the designs.

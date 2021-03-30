@@ -38,15 +38,15 @@ const IndexPage = () => {
   return (
     <AppContext.Provider value={value}>
       <MainLayout>
-        <SEO title="Home" />
+        <SEO title="Rock, Paper, Scissors" />
         {activeStep === 'menu' ? (
           <Menu />
         ) : (
-            <GameLayout>
-              {activeStep === 'options' && <Options />}
-              {activeStep === 'result' && <Result />}
-            </GameLayout>
-          )}
+          <GameLayout>
+            {activeStep === 'options' && <Options />}
+            {activeStep === 'result' && <Result />}
+          </GameLayout>
+        )}
       </MainLayout>
     </AppContext.Provider>
   )
